@@ -69,32 +69,37 @@
         <div class="my-5">
             <h4 class="text-center gray">Portfolio</h4>
             <h3 class="text-center pb-2">Check out our beatiful Portfolio</h3>
+            <ul style="list-style: none;" class="d-flex justify-content-center gap-2 fw-bold">
+                <li><button onclick="showall()" id="btn1" style="background-color: #F76B0E; color: white;" class="btns">All</button></li>
+                <li><button onclick="showfront()" id="btn2" class="btns "> Frontend</button></li>
+                <li><button onclick="showback()" id="btn3" class="btns ">Backend</button></li>
+            </ul>
 
         </div>
         <div class="d-flex flex-wrap gap-3 justify-content-center">
-            <div class="shadow-lg">
-               <a href="product.html" ><img src="assets/images/PL/Html.png" alt="HTML logo" class="images"> </a>
+            <div class="shadow-lg" >
+               <a href="product.html" ><img src="assets/images/PL/Html.png" alt="HTML logo" class="images" id="front1"> </a>
             </div>
             <div class="shadow-lg">
-                <img src="assets/images/PL/css.png" alt="CSS logo" class="images">
+                <img src="assets/images/PL/css.png" alt="CSS logo" class="images" id="front2">
             </div>
             <div class="shadow-lg">
-                <img src="assets/images/PL/javascript.png" alt="JS logo" class="images">
+                <img src="assets/images/PL/javascript.png" alt="JS logo" class="images " id="front3">
             </div>
             <div class="shadow-lg">
-                <img src="assets/images/PL/Bootstrap.png" alt="Bootstrap logo" class="images">
+                <img src="assets/images/PL/Bootstrap.png" alt="Bootstrap logo" class="images " id="front4">
             </div>
             <div class="shadow-lg">
-                <img src="assets/images/PL/python.png" alt="Python logo" class="images">
+                <img src="assets/images/PL/python.png" alt="Python logo" class="images " id="back1">
             </div>
             <div class="shadow-lg">
-                <img src="assets/images/PL/react.png" alt="React logo" class="images">
+                <img src="assets/images/PL/react.png" alt="React logo" class="images" id="back2">
             </div>
             <div class="shadow-lg">
-                <img src="assets/images/PL/SQL.png" alt="SQL logo" class="images">
+                <img src="assets/images/PL/SQL.png" alt="SQL logo" class="images " id="back3">
             </div>
             <div class="shadow-lg">
-                <img src="assets/images/PL/MongoDB.png" alt="MongoDB logo" class="images">
+                <img src="assets/images/PL/MongoDB.png" alt="MongoDB logo" class="images " id="back4">
             </div>
         </div>
     </div>
@@ -184,6 +189,7 @@
             <li>Designed by Titus</li>
         </ul>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
