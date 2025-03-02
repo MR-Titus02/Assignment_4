@@ -26,6 +26,7 @@ function showall() {
 
 }
 function showfront() {
+    //for resetting if any clicked earlier
     var back5 = document.getElementById("back1")
     back5.classList.remove("hide")
     var back6 = document.getElementById("back2")
@@ -42,7 +43,7 @@ function showfront() {
     front7.classList.remove("hide")
     var front8 = document.getElementById("front4")
     front8.classList.remove("hide")
-    //for resetting above lines
+    //for the task
     var back1 = document.getElementById("back1")
     back1.classList.add("hide")
     var back2 = document.getElementById("back2")
@@ -62,6 +63,7 @@ function showfront() {
 
 }
 function showback() {
+    //for resetting if any clicked earlier
     var back5 = document.getElementById("back1")
     back5.classList.remove("hide")
     var back6 = document.getElementById("back2")
@@ -78,7 +80,7 @@ function showback() {
     front7.classList.remove("hide")
     var front8 = document.getElementById("front4")
     front8.classList.remove("hide")
-    //for resetting above lines
+    //for the task
     var front1 = document.getElementById("front1")
     front1.classList.add("hide")
     var front2 = document.getElementById("front2")
