@@ -83,3 +83,11 @@ a:hover {
     padding: 5px;
     color: white;
 }
+.hide {
+    display: none;
+}
+.btns {
+    border: 1px solid #F76B0E;
+    border-radius: 10px;
+    padding: 4px;
+}
