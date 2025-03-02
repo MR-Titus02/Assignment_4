@@ -71,6 +71,9 @@ h3:hover::after {
     text-decoration: none;
     color: gray;
 }
+a:hover {
+    color: #F76B0E;
+}
 .gray {
     color: gray;
 }
